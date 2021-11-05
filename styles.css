@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+body {
+background-image: url('sun.gif');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Mochiy Pop One', sans-serif;;
+height:100%;
+}
+
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color:black;
+text-align:center;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds, #tens{
+  font-size:2em;
+}
+
+button{
+font-family: 'Mochiy Pop One', sans-serif;
+opacity: 90%;
+color:black;
+border: solid 1px black;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+outline: none;
+border-radius: 20%;
+}
+
+#button-start{
+background-image: url('run.gif');
+background-size: cover;
+background-position-y: 20%;
+}
+
+#button-stop{
+background-image: url('stop.jfif');
+background-size: 90%;
+background-position-y: 30%;
+}
+
+#button-reset{
+background-image: url('reset.gif');
+background-size: cover;
+background-position-y: 20%;
+}
+
+
+
+
